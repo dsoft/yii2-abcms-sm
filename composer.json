@@ -1,0 +1,22 @@
+{
+    "name": "abcms/yii2-sm",
+    "type": "yii2-extension",
+    "description": "",
+    "version": "dev-master",
+    "keywords": [
+    ],
+    "authors": [
+    ],
+    "support": {
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {"abcms\\sm\\": ""}
+    },
+    "bin": [
+    ],
+    "extra": {
+    }
+}
