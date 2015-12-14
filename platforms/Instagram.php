@@ -28,7 +28,7 @@ class Instagram extends PlatformAbstract
             'apiCallback' => ''
         ));
         $count = 0;
-        $result = $instagram->getUserMedia($this->accountIdentifier);
+        $result = $instagram->getUserMedia($this->accountIdentifier, 100);
         while($result) {
             if(isset($result->data) && is_array($result->data)) {
                 foreach($result->data as $postData) {
